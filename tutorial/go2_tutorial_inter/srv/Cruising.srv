@@ -1,0 +1,6 @@
+#purpose for data(1/0)
+int32 flag
+
+---
+
+geometry_msgs/Point point
