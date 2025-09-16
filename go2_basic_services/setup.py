@@ -21,6 +21,7 @@ setup(
     entry_points={
         'console_scripts': [
             'go2_device_state = go2_basic_services.go2_device_state:main',
+            'go2_light_audio = go2_basic_services.go2_light_audio:main',
 
         ],
     },

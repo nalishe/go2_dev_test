@@ -38,18 +38,18 @@ class Go2DeviceState(Node):
             "gait_type": gait_type,
             "foot_raise_height": foot_raise_height,
             "velocity": {
-                "x": velocity.x,
-                "y": velocity.y,
-                "z": velocity.z
+                "x": float(velocity[0]),
+                "y": float(velocity[1]),
+                "z": float(velocity[2])
             },
             "yaw_speed": yaw_speed,
             "position": {
-                "x": position.x,
-                "y": position.y,
-                "z": position.z
+                "x": float(position[0]),
+                "y": float(position[1]),
+                "z": float(position[2])
             },
             "body_height": body_height,
-            "range_obstacle": range_obstacle
+            # "range_obstacle": range_obstacle
         }
 
         self.get_logger().info(f"Device State: {json.dumps(summary)}")
