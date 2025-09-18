@@ -1,0 +1,17 @@
+[0.348s] Invoking command in '/workspace/src/build/sdk_exec': PYTHONPATH=/workspace/src/build/sdk_exec/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/src/install/sdk_exec/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /workspace/src/build/sdk_exec/build --no-deps symlink_data
+[0.490s] running develop
+[0.562s] running egg_info
+[0.562s] writing sdk_exec.egg-info/PKG-INFO
+[0.562s] writing dependency_links to sdk_exec.egg-info/dependency_links.txt
+[0.562s] writing entry points to sdk_exec.egg-info/entry_points.txt
+[0.562s] writing requirements to sdk_exec.egg-info/requires.txt
+[0.562s] writing top-level names to sdk_exec.egg-info/top_level.txt
+[0.563s] reading manifest file 'sdk_exec.egg-info/SOURCES.txt'
+[0.563s] writing manifest file 'sdk_exec.egg-info/SOURCES.txt'
+[0.564s] running build_ext
+[0.564s] Creating /workspace/src/install/sdk_exec/lib/python3.10/site-packages/sdk-exec.egg-link (link to .)
+[0.565s] Installing sdk_light script to /workspace/src/install/sdk_exec/lib/sdk_exec
+[0.565s] 
+[0.565s] Installed /workspace/src/build/sdk_exec
+[0.565s] running symlink_data
+[0.582s] Invoked command in '/workspace/src/build/sdk_exec' returned '0': PYTHONPATH=/workspace/src/build/sdk_exec/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/src/install/sdk_exec/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /workspace/src/build/sdk_exec/build --no-deps symlink_data

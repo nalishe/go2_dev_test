@@ -1,0 +1,13 @@
+package.xml
+setup.cfg
+setup.py
+resource/sdk_exec
+sdk_exec/__init__.py
+sdk_exec/sdk_light.py
+sdk_exec.egg-info/PKG-INFO
+sdk_exec.egg-info/SOURCES.txt
+sdk_exec.egg-info/dependency_links.txt
+sdk_exec.egg-info/entry_points.txt
+sdk_exec.egg-info/requires.txt
+sdk_exec.egg-info/top_level.txt
+sdk_exec.egg-info/zip-safe

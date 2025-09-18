@@ -1,0 +1,24 @@
+[0.402s] Invoking command in '/workspace/src/build/sdk_exec': PYTHONPATH=/workspace/src/build/sdk_exec/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/src/install/sdk_exec/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /workspace/src/build/sdk_exec/build --no-deps symlink_data
+[0.544s] running develop
+[0.615s] running egg_info
+[0.615s] creating sdk_exec.egg-info
+[0.615s] writing sdk_exec.egg-info/PKG-INFO
+[0.616s] writing dependency_links to sdk_exec.egg-info/dependency_links.txt
+[0.616s] writing entry points to sdk_exec.egg-info/entry_points.txt
+[0.616s] writing requirements to sdk_exec.egg-info/requires.txt
+[0.616s] writing top-level names to sdk_exec.egg-info/top_level.txt
+[0.616s] writing manifest file 'sdk_exec.egg-info/SOURCES.txt'
+[0.617s] reading manifest file 'sdk_exec.egg-info/SOURCES.txt'
+[0.617s] writing manifest file 'sdk_exec.egg-info/SOURCES.txt'
+[0.618s] running build_ext
+[0.618s] Creating /workspace/src/install/sdk_exec/lib/python3.10/site-packages/sdk-exec.egg-link (link to .)
+[0.619s] Installing sdk_light script to /workspace/src/install/sdk_exec/lib/sdk_exec
+[0.619s] 
+[0.619s] Installed /workspace/src/build/sdk_exec
+[0.619s] running symlink_data
+[0.619s] creating /workspace/src/install/sdk_exec/share/ament_index
+[0.619s] creating /workspace/src/install/sdk_exec/share/ament_index/resource_index
+[0.619s] creating /workspace/src/install/sdk_exec/share/ament_index/resource_index/packages
+[0.619s] symbolically linking /workspace/src/build/sdk_exec/resource/sdk_exec -> /workspace/src/install/sdk_exec/share/ament_index/resource_index/packages
+[0.619s] symbolically linking /workspace/src/build/sdk_exec/package.xml -> /workspace/src/install/sdk_exec/share/sdk_exec
+[0.636s] Invoked command in '/workspace/src/build/sdk_exec' returned '0': PYTHONPATH=/workspace/src/build/sdk_exec/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/src/install/sdk_exec/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /workspace/src/build/sdk_exec/build --no-deps symlink_data
