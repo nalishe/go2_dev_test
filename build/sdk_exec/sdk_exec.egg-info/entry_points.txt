@@ -1,3 +1,0 @@
-[console_scripts]
-sdk_light = sdk_exec.sdk_light:main
-

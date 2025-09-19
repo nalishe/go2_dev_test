@@ -20,7 +20,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'go2_light = go2_sdk_exec.go2_light:main'
+            'go2_light = go2_sdk_exec.go2_light:main',
+            'go2_video = go2_sdk_exec.go2_video:main',
         ],
     },
 )
